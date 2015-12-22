@@ -1,0 +1,145 @@
+GIT
+  remote: git://github.com/lotus/assets.git
+  revision: 7ff4f99afecb1793c776e38772b0556f2288fec8
+  specs:
+    lotus-assets (0.1.0)
+      lotus-helpers (~> 0.2, >= 0.2.5)
+      lotus-utils (~> 0.6)
+      tilt (~> 2.0, >= 2.0.1)
+      yui-compressor (~> 0.12)
+
+GIT
+  remote: git://github.com/lotus/controller.git
+  revision: 485e6a33899187b627c1aee06104880f5a905ba5
+  specs:
+    lotus-controller (0.5.0)
+      lotus-utils (~> 0.6)
+      lotus-validations (~> 0.4)
+      rack (~> 1.6, >= 1.6.2)
+
+GIT
+  remote: git://github.com/lotus/helpers.git
+  revision: c7c42ecdf0632deba00165143d0c6e50dcf519e1
+  specs:
+    lotus-helpers (0.2.6)
+      lotus-utils (~> 0.6)
+
+GIT
+  remote: git://github.com/lotus/lotus.git
+  revision: 52b7f3f909f0751fc1b53b30fbd9998d7052a778
+  specs:
+    lotusrb (0.5.0)
+      bundler (~> 1.6)
+      dotenv (~> 2.0)
+      lotus-assets (~> 0.1)
+      lotus-controller (~> 0.5)
+      lotus-helpers (~> 0.2, >= 0.2.6)
+      lotus-mailer (~> 0.1)
+      lotus-router (~> 0.5)
+      lotus-utils (~> 0.6)
+      lotus-view (~> 0.5)
+      shotgun (~> 0.9)
+      thor (~> 0.19)
+
+GIT
+  remote: git://github.com/lotus/mailer.git
+  revision: 2eedba9aefd81508812b8ce679882c7b3fa8d907
+  specs:
+    lotus-mailer (0.1.0)
+      lotus-utils (~> 0.6)
+      mail (~> 2.5)
+      tilt (~> 2.0, >= 2.0.1)
+
+GIT
+  remote: git://github.com/lotus/model.git
+  revision: 945f5101f202298869dcd5c0e9b70e8e1f00e50e
+  specs:
+    lotus-model (0.5.1)
+      lotus-utils (~> 0.6)
+      sequel (~> 4.9)
+
+GIT
+  remote: git://github.com/lotus/router.git
+  revision: 39b3337c0f881021d40f21f9836dc2a9128ff5ff
+  specs:
+    lotus-router (0.5.0)
+      http_router (~> 0.11)
+      lotus-utils (~> 0.6)
+
+GIT
+  remote: git://github.com/lotus/utils.git
+  revision: d4dd920356183895880c0f335bdca64a704684a6
+  specs:
+    lotus-utils (0.6.0)
+
+GIT
+  remote: git://github.com/lotus/validations.git
+  revision: c95e6713b440554b3e1a9246d873645c503dfa9a
+  specs:
+    lotus-validations (0.4.0)
+      lotus-utils (~> 0.6)
+
+GIT
+  remote: git://github.com/lotus/view.git
+  revision: 104293d31d916d67cddcfd19554b4359294821c8
+  specs:
+    lotus-view (0.5.0)
+      lotus-utils (~> 0.6)
+      tilt (~> 2.0, >= 2.0.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    capybara (2.5.0)
+      mime-types (>= 1.16)
+      nokogiri (>= 1.3.3)
+      rack (>= 1.0.0)
+      rack-test (>= 0.5.4)
+      xpath (~> 2.0)
+    dotenv (2.0.2)
+    http_router (0.11.2)
+      rack (>= 1.0.0)
+      url_mount (~> 0.2.1)
+    mail (2.6.3)
+      mime-types (>= 1.16, < 3)
+    mime-types (2.99)
+    mini_portile2 (2.0.0)
+    minitest (5.8.3)
+    nokogiri (1.6.7.1)
+      mini_portile2 (~> 2.0.0.rc2)
+    rack (1.6.4)
+    rack-test (0.6.3)
+      rack (>= 1.0)
+    rake (10.4.2)
+    sequel (4.29.0)
+    shotgun (0.9.1)
+      rack (>= 1.0)
+    thor (0.19.1)
+    tilt (2.0.1)
+    url_mount (0.2.1)
+      rack
+    xpath (2.0.0)
+      nokogiri (~> 1.3)
+    yui-compressor (0.12.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler
+  capybara
+  lotus-assets!
+  lotus-controller!
+  lotus-helpers!
+  lotus-mailer!
+  lotus-model!
+  lotus-router!
+  lotus-utils!
+  lotus-validations!
+  lotus-view!
+  lotusrb!
+  minitest
+  rake
+
+BUNDLED WITH
+   1.10.6
